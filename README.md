@@ -35,5 +35,4 @@ To run this project, ensure you have the following installed:
 
 ### Clone the repository:
 ```bash
-git clone <repository-url>
-cd <project-directory>
+git clone github.com:Am0ck/odds-based-game.git
