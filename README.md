@@ -36,3 +36,15 @@ To run this project, ensure you have the following installed:
 ### Clone the repository:
 ```bash
 git clone github.com:Am0ck/odds-based-game.git
+```
+### For testing the api endpoints/ Business logic:
+Use Maven to run all unit tests  
+```bash
+Maven -> game -> Lifecycle -> test
+```
+Alternatively project can be manually tested using postman to generate appropriate api requests, while observing the responses and changes to the H2 Database
+```bash
+H2 local url: http://localhost:8080/h2-console
+DB URL: jdbc:h2:mem:testdb
+```
+
